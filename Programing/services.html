@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balaji Mobile Shopee</title>
+    <link rel="stylesheet" href="services.css" />
+    <!-- Link to your CSS file -->
+    <style>
+      /* Include the CSS code from the previous message here */
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="logo">
+          <h1>Balaji Mobile Shopee</h1>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li> -->
+          </ul>
+          <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h2>We Provide Best services</h2>
+        <p>Best and fast Services With 15 years of Experience</p>
+        <a href="#services" class="btn hero-btn">Explore Our Services</a>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="container1">
+        <!-- <h2>Our Services</h2> -->
+        <div class="services-cards">
+          <div class="card">
+            <img src="mobile-repairing.png" alt="Mobile Repairing" />
+            <h3>Mobile Repairing with 15 years of Experience</h3>
+            <p>
+              Professional and fast mobile repairing services for all brands.
+            </p>
+          </div>
+          <div class="card">
+            <img src="accessories.png" alt="Accessories" />
+            <h3>Original Accessories</h3>
+            <p>Wide range of original mobile accessories for every model.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div class="line"></div>
+      <div class="container">
+        <p>&copy; 2024 Balaji Mobile Shopee</p>
+        <div class="social-icons">
+          <!-- <a href="https://wa.me/917888223323" target="_blank"> -->
+          <!-- <img src="whatsapp-logo.png" alt="WhatsApp" /> -->
+          <!-- </a> -->
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="accessories.html">Accessories</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navList = document.querySelector(".nav-list");
+        menuToggle.addEventListener("click", function () {
+          navList.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>

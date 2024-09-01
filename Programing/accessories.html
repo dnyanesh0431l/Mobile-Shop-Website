@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balaji Mobile Shopee</title>
+    <link rel="stylesheet" href="services.css" />
+    <style>
+      /* Include additional styling here */
+      .accessory-section {
+        padding: 40px 0;
+        background-color: #f9f9f9;
+      }
+
+      .accessory-category {
+        margin-bottom: 40px;
+      }
+
+      .accessory-category h3 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+        text-transform: uppercase;
+      }
+
+      .accessory-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+      }
+
+      .accessory-item {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+
+      .accessory-item:hover {
+        transform: translateY(-5px);
+      }
+
+      .accessory-item img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+        margin-bottom: 15px;
+      }
+
+      .accessory-item h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: #444;
+      }
+
+      .accessory-item p {
+        font-size: 14px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="logo">
+          <h1>Balaji Mobile Shopee</h1>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+          <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h2>Our All Accessories</h2>
+        <p>Original Accessories, Hardware, Screen Cards, Fast Service</p>
+        <a href="#accessories" class="btn hero-btn">Explore Our Accessories</a>
+      </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section id="accessories" class="accessory-section">
+      <div class="container">
+        <!-- Mobile Covers Category -->
+        <div class="accessory-category">
+          <h3>Mobile Covers</h3>
+          <div class="accessory-items">
+            <div class="accessory-item">
+              <img src="mobile-cover.png" alt="All model mobile covers" />
+              <h4>All model mobile covers</h4>
+              <p>Available in various designs and materials</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chargers and Cables Category -->
+        <div class="accessory-category">
+          <h3>Chargers and Cables</h3>
+          <div class="accessory-items">
+            <div class="accessory-item">
+              <img src="charger.png" alt="Original Chargers" />
+              <h4>MI Original Charger</h4>
+              <p>High quality and fast charging</p>
+            </div>
+            <div class="accessory-item">
+              <img src="usb-cabel.png" alt="Original USB Cables" />
+              <h4>MI Original USB Cable</h4>
+              <p>Durable and reliable USB cables</p>
+            </div>
+            <div class="accessory-item">
+              <img src="appple-adapter.png" alt="Apple Adapter" />
+              <h4>Apple 12W Adapter</h4>
+              <p>Original Apple power adapter</p>
+            </div>
+            <div class="accessory-item">
+              <img src="adapter.png" alt="Samsung Adapter" />
+              <h4>Samsung 25W Adapter</h4>
+              <p>Fast charging for Samsung devices</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Headphones and Earbuds Category -->
+        <div class="accessory-category">
+          <h3>Headphones and Earbuds</h3>
+          <div class="accessory-items">
+            <div class="accessory-item">
+              <img src="boat-headphones.png" alt="Boat Headphones" />
+              <h4>Boat Headphones</h4>
+              <p>High-quality sound with deep bass</p>
+            </div>
+            <div class="accessory-item">
+              <img src="boat-earbud.png" alt="Boat Earbuds" />
+              <h4>Boat Earbuds</h4>
+              <p>Comfortable and lightweight design</p>
+            </div>
+            <div class="accessory-item">
+              <img src="realme-headphones.png" alt="Realme Headphones" />
+              <h4>Realme Headphones</h4>
+              <p>Clear sound and durable build</p>
+            </div>
+            <div class="accessory-item">
+              <img src="realme-earbuds.png" alt="Realme Earbuds" />
+              <h4>Realme Earbuds</h4>
+              <p>Wireless and ergonomic fit</p>
+            </div>
+            <div class="accessory-item">
+              <img src="lyne-bluetooth.png" alt="Lyne Bluetooth" />
+              <h4>Lyne Bluetooth</h4>
+              <p>Wireless convenience for all devices</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Screen Cards and UV Glass Category -->
+        <div class="accessory-category">
+          <h3>Screen Cards and UV Glass</h3>
+          <div class="accessory-items">
+            <div class="accessory-item">
+              <img src="screen-cards.png" alt="SHD+ Screen Cards" />
+              <h4>SHD+ Screen Cards</h4>
+              <p>High-definition screen protection</p>
+            </div>
+            <div class="accessory-item">
+              <img src="uv-glasses.png" alt="UV Glass" />
+              <h4>UV Glass</h4>
+              <p>Advanced screen protection technology</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Mobile Accessories -->
+        <div class="accessory-category">
+          <h3>Other Accessories</h3>
+          <div class="accessory-items">
+            <div class="accessory-item">
+              <img src="shkod-earbuds.png" alt="Shkod Earbud (Oppo)" />
+              <h4>Shkod Earbud (Oppo)</h4>
+              <p>Comfortable fit and clear audio</p>
+            </div>
+            <div class="accessory-item">
+              <img
+                src="multibranded-phones.png"
+                alt="Multi-Brand Mobile Phones"
+              />
+              <h4>New Mobile Phones</h4>
+              <p>MI, Vivo, Realme, Oppo, Nokia, Itel, Lava</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div class="line"></div>
+      <div class="container">
+        <p>&copy; 2024 Balaji Mobile Shopee</p>
+        <div class="social-icons"></div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="accessories.html">Accessories</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navList = document.querySelector(".nav-list");
+        menuToggle.addEventListener("click", function () {
+          navList.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>

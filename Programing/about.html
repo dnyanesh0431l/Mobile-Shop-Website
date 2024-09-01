@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balaji Mobile Shopee</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="logo">
+          <h1>Balaji Mobile Shopee</h1>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="about.html">About</a>
+          </ul>
+          <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h2>All About Us</h2>
+        <p>Original Accessories, Hardware, Screen Cards, Fast Service</p>
+        <a href="#services" class="btn hero-btn">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <div id="about-section" class="about-section">
+      <h2>About Us</h2>
+      <p>
+        Welcome to Balaji Mobile Shopee! We specialize in providing original
+        accessories, high-quality hardware, screen cards, Xerox services, and
+        fast mobile repair services.
+      </p>
+      <p>
+        We are committed to delivering authentic products such as Lyne
+        headphones, Boat earbuds, Apple 25-watt adapters, and more, ensuring
+        customer satisfaction with every purchase.
+      </p>
+      <a href="about.html" class="btn hero-btn">Know More</a>
+    </div>
+
+    <!-- Shop Details Section -->
+    <div class="shop-details">
+      <h3>Contact Information</h3>
+      <p><strong>Shop Owner:</strong> Chandrakant Thorat</p>
+      <p><strong>Shop Name:</strong> Balaji Mobile Shopee</p>
+      <p><strong>Experience:</strong> 15 years</p>
+      <p><strong>Clients Served:</strong> 500+</p>
+      <div class="contact-link">
+        <img src="whatsapp-logo.png" alt="WhatsApp" class="whatsapp-logo" />
+        <a href="https://wa.me/917888223323" target="_blank"
+          >WhatsApp: +91 7888223323</a
+        >
+      </div>
+      <div class="contact-link">
+        <a href="tel:+917888223323">Phone: +91 7888223323</a>
+      </div>
+      <div class="contact-link">
+        <a href="mailto:balajithorat71484@gmail.com"
+          >Email: balajithorat71484@gmail.com</a
+        >
+      </div>
+    </div>
+
+    <!-- Map Section -->
+    <div class="map-container">
+      <h3>Our Location</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24720.973421843923!2d75.289959866538!3d19.843584622775875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb9915b8c8b6c1%3A0xbfd37a05b58c963b!2sBalaji%20Mobile%20Shopee%20Itkheda!5e0!3m2!1sen!2sin!4v1724505449258!5m2!1sen!2sin"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+      <div class="line"></div>
+      <div class="container">
+        <p>&copy; 2024 Balaji Mobile Shopee</p>
+        <div class="social-icons">
+          <a href="https://wa.me/917888223323" target="_blank">
+            <!-- <img src="whatsapp-logo.png" alt="WhatsApp" /> -->
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="accessories.html">Accessories</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navList = document.querySelector(".nav-list");
+        menuToggle.addEventListener("click", function () {
+          navList.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>

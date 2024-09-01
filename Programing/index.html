@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balaji Mobile Shopee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to your CSS file -->
+    <style>
+      /* Include the CSS code from the previous message here */
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="logo">
+          <h1>Balaji Mobile Shopee</h1>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li> -->
+          </ul>
+          <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h2>Your Trusted Mobile Repair and Accessories Partner</h2>
+        <p>Original Accessories, Hardware, Screen Cards, Fast Service</p>
+        <a href="#services" class="btn hero-btn">Explore Our Services</a>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="container1">
+        <!-- <h2>Our Services</h2> -->
+        <div class="services-cards">
+          <div class="card">
+            <img src="mobile-repairing.png" alt="Mobile Repairing" />
+            <h3>Mobile Repairing</h3>
+            <p>
+              Professional and fast mobile repairing services for all brands.
+            </p>
+          </div>
+          <div class="card">
+            <img src="accessories.png" alt="Accessories" />
+            <h3>Original Accessories</h3>
+            <p>Wide range of original mobile accessories for every model.</p>
+          </div>
+          <a href="services.html" class="btn hero-btn">Know More</a>
+        </div>
+        <!-- <a href="#services" class="btn hero-btn">Know more about Services</a> -->
+      </div>
+    </section>
+    <section id="accessories" class="accessories">
+      <div class="container">
+        <h2>Popular Accessories</h2>
+        <div class="accessories-grid">
+          <div class="accessory-item">
+            <img src="Lyne-Headphone.png" alt="Lyne Headphones" />
+            <h3>Lyne Headphones</h3>
+            <p>High-quality sound and comfort.</p>
+          </div>
+          <div class="accessory-item">
+            <img src="Boat-earbuds.png" alt="Boat Earbuds" />
+            <h3>Boat Earbuds</h3>
+            <p>Experience wireless freedom.</p>
+          </div>
+          <div class="accessory-item">
+            <img src="samsung-adapter.png" alt="Samsung Adapter" />
+            <h3>Samsung Adapter</h3>
+            <p>Original 25-watt fast charging.</p>
+          </div>
+        </div>
+        <a href="accessories.html" class="btn hero-btn">Know More</a>
+      </div>
+    </section>
+    <!-- <section id="newsletter" class="newsletter">
+        <div class="container">
+          <h2>Stay Updated</h2>
+          <p>Subscribe to our newsletter for the latest updates and offers.</p>
+          <form id="newsletter-form">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </section> -->
+    <div id="about-section" class="about-section">
+      <h2>About Us</h2>
+      <p>
+        Welcome to Balaji Mobile Shopee! We specialize in providing original
+        accessories, high-quality hardware, screen cards, Xerox services, and
+        fast mobile repair services.
+      </p>
+      <p>
+        We are committed to delivering authentic products such as Lyne
+        headphones, Boat earbuds, Apple 25-watt adapters, and more, ensuring
+        customer satisfaction with every purchase.
+      </p>
+      <a href="about.html" class="btn hero-btn">Know More</a>
+    </div>
+    <div id="contact-section" class="contact-section">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> <a href="tel:+917888223323">7888223323</a></p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:balajithorat71484@gmail.com"
+          >balajithorat71484@gmail.com</a
+        >
+      </p>
+      <div class="whatsapp">
+        <a href="https://wa.me/917888223323" target="_blank">
+          <img src="whatsapp-logo.png" alt="WhatsApp Logo" /> Chat with us
+        </a>
+      </div>
+    </div>
+    <div class="newsletter">
+      <h3>Subscribe to our Newsletter</h3>
+      <form id="newsletter-form">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <footer id="contact" class="footer">
+      <div class="line"></div>
+      <div class="container">
+        <p>&copy; 2024 Balaji Mobile Shopee</p>
+        <div class="social-icons">
+          <!-- <a href="https://wa.me/917888223323" target="_blank"> -->
+          <!-- <img src="whatsapp-logo.png" alt="WhatsApp" /> -->
+          <!-- </a> -->
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="accessories.html">Accessories</a>
+          <a href="about.html">About</a>
+
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navList = document.querySelector(".nav-list");
+        menuToggle.addEventListener("click", function () {
+          navList.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>
